@@ -3,7 +3,7 @@ import csv
 
 def read_csv():
     vehicles = []
-    file_name = "./data/car_price_dataset.csv"
+    file_name = "./data/vehicles.csv"
     # open and read data from the csv file
     with open(file_name) as file:
         reader = csv.DictReader(file)
