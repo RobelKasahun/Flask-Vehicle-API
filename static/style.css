@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-height: 700px;
+}
+
+table {
+    text-align: center;
+}
+
+.container>form>input {
+    padding: 10px;
+}
+
+.row {
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.container>form>#process {
+    width: 400px;
+}
+
+.container {
+    width: 80%;
+}
+
+#error {
+    text-align: center;
+}
